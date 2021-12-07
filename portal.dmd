@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="portal" id="E27D7ED0-6D16-48D0-7440-CC07309BB003" version="3.5">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 18:55:52 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E27D7ED0-6D16-48D0-7440-CC07309BB003</designId>
+</OSDM_Design>

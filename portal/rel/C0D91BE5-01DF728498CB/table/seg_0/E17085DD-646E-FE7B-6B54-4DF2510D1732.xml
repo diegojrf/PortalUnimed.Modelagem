@@ -23,7 +23,6 @@
 <createdBy>diego.felisberto</createdBy>
 <createdTime>2021-12-07 19:11:53 UTC</createdTime>
 <ownerDesignName>portal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -50,6 +49,28 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="66144A20-C39A-E8C8-DDB6-701C907EE4B6">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 19:32:39 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="9611355F-7F74-09C7-039F-8EBE1FE63528">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 19:32:39 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
