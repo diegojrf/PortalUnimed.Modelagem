@@ -41,6 +41,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="data_exclusao" id="D0C7F4AE-3441-AC10-7835-5811ED82D764">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 19:26:09 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F502F032-2F8E-964D-2657-87F9905E65D5" name="adm_usuario_PK">
