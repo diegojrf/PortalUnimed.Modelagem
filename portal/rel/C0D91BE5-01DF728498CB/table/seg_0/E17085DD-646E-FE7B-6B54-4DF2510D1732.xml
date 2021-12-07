@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E17085DD-646E-FE7B-6B54-4DF2510D1732" name="adm_usuario">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 19:01:24 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3A0EF5DC-83DA-6CE4-21C9-7E2BF83E437A">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 19:01:56 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cadastro" id="49F0673D-A23F-61C0-23AC-0A3DCF84FE64">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 19:11:53 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_alteracao" id="EAC0CAC4-CBD4-618C-E880-4582AB9A2D94">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 19:17:08 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F502F032-2F8E-964D-2657-87F9905E65D5" name="adm_usuario_PK">
+<createdBy>diego.felisberto</createdBy>
+<createdTime>2021-12-07 19:01:56 UTC</createdTime>
+<ownerDesignName>portal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A0EF5DC-83DA-6CE4-21C9-7E2BF83E437A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
